@@ -1,0 +1,10 @@
+aws:
+  s3Bucket: 'video-source-1gm6n07zc4ivz'
+  videoTableName: 'video'
+db:
+  host: 'video.cwkef5jupqeq.us-east-1.rds.amazonaws.com'
+  username: 'postgres'
+  password: 'mysecretpassword'
+  synchronize: true
+
+

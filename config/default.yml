@@ -1,0 +1,15 @@
+server:
+  port: 3000
+  loggerLevel: ['error', 'warn', 'debug', 'log', 'verbose']
+  cors: { cors: true, credentials: true }
+
+db:
+  type: 'postgres'
+  port: 5432
+  database: 'nest'
+  loggerLevel: 'all'
+  maxQueryExecutionTime: 500
+
+jwt:
+  expiresIn: 36000
+  secret: 'topSecret51'
